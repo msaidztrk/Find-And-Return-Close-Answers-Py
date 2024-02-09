@@ -3,8 +3,6 @@ from difflib import get_close_matches
 import json 
 import os
 
-#  note : yapılacaklar ; değişkenler ingilizce , with openlar ise dinamik konumdan oluşacak
-
 def upload_json():
     script_dir = os.path.dirname(__file__)
     file_path = os.path.join(script_dir, "veritabani.json")
